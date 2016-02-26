@@ -16,9 +16,9 @@ Usage
 
 and then in `android-sample` project run
 
-``` gradle
+``` java
  
-gradle parallelDeploy
+    gradle parallelDeploy
 
 ```
 

@@ -6,13 +6,21 @@ or devices running/connected in the same PCs this lib is running on.
 Usage
 ----
 
-`gradle build`
+``` java
 
-`java -jar cifs-apk-deployer <shared-dir> <android-file> <package-name>`
+    gradle build
+    
+    java -jar cifs-apk-deployer <shared-dir> <android-file> <package-name>
+    
+```
 
 and then in `android-sample` project run
 
-`gradle parallelDeploy`
+``` gradle
+ 
+gradle parallelDeploy
+
+```
 
 
 
